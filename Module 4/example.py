@@ -1,5 +1,5 @@
-scores = [120, 450, 300]
-first_score = scores[0]
-last_score = scores[-1]
-print(f"All: {scores}")
-print(f"First: {first_score}, Last: {last_score}")
+rewards = [10, 50, 20]
+total = 0
+for reward in rewards:
+    total += reward
+print(f"Total: {total}")
