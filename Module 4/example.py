@@ -1,5 +1,5 @@
-rewards = [10, 50, 20]
-total = 0
-for reward in rewards:
-    total += reward
-print(f"Total: {total}")
+raw_times = [42, 18, 95, 30]
+asc = sorted(raw_times)
+dsc = sorted(raw_times, reverse=True)
+print(f"Original: {raw_times}")
+print(f"Asc: {asc}, Desc: {dsc}")
